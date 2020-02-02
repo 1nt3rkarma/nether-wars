@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1721378150022326641
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3219616521613830708}
+  - component: {fileID: 3615880148757653066}
+  m_Layer: 0
+  m_Name: "\u0410\u0442\u0430\u043A\u0430 (\u0431\u043B\u0438\u0436\u043D\u0438\u0439
+    \u0431\u043E\u0439)"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3219616521613830708
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721378150022326641}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3615880148757653066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721378150022326641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb180a6d0fa284444a5860000d78c0c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label: "\u0410\u0442\u0430\u043A\u0430"
+  caster: {fileID: 0}
+  targeting: 1
+  range: 0
+  distanceMax: 2
+  distanceMin: 0
+  coolDown: 2
+  coolDownTimer: 0
+  delay: 0
+  delayTimer: 0
+  manaCost: 0
+  targetPermissions:
+    allowSelf: 0
+    allowEnemies: 1
+    allowAllies: 0
+    allowBuildings: 0
+    allowTerrain: 0
+    allowDead: 0
+  AIPriority: 0
+  animationTag: attack
+  targetSFX: {fileID: 0}
+  casterSFX: {fileID: 0}
+  castSounds: []
+  targetStructure: {fileID: 0}
+  targetUnit: {fileID: 0}
+  isActivated: 0
+  splashDamage: 0
+  knockBack: 1
+  knockBackForce: 2.5
